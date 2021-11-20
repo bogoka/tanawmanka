@@ -1,0 +1,35 @@
+Question 1
+#include <stdio.h>
+
+int main(void){
+    
+	int a;
+
+    scanf("%d", &a);
+    
+    if(a % 2 == 0)
+        printf("Even!");
+    else
+    	printf("Odd!");
+    
+}
+
+Question 2
+
+#include<stdio.h>
+
+int main(void){
+    float a, b;
+    
+
+    scanf("%f", &a);
+
+    if (a>=1000)
+    {
+	
+    	b=a-a*.10;
+        printf("%.2f", b);
+	}
+    else if (a<1000)
+    	printf("%.2f", a);
+}
