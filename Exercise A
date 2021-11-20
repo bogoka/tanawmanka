@@ -1,0 +1,27 @@
+Question 1
+#include <stdio.h>
+
+int main(void){
+    int a;
+ 
+    scanf("%d", &a);
+    
+    if(a % 2 == 0)
+        printf("Even!");
+    
+    
+}
+
+Question 2
+
+#include <stdio.h>
+
+int main(void)
+{
+    int a, b;
+ 
+    scanf("%d %d", &a, &b);
+    if (a == b)
+        printf("The two numbers are equal!");
+    
+}
