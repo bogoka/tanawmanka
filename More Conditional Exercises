@@ -1,0 +1,53 @@
+Question 1
+
+#include <stdio.h>
+
+int main(void){
+    
+    int time;
+    
+    scanf("%d", &time);
+    
+    while (time>170){
+    	time=time-170;
+	}
+    if (time>0 && time<=30){
+    printf("Concrete");
+	}	
+    else if (time>30 && time<=85){
+    	printf("Mud");
+	}
+	else if (time>85 && time<=132){
+		printf("Sand");
+	}
+	else if (time>132 && time<=170){
+		printf("Asphalt");
+	}
+
+}
+
+Question 2
+
+#include<stdio.h>
+
+int main(void){
+	
+	
+	float kw, bill, finalbill;
+	float first=75;
+
+	
+	printf("Kilowatt-hours: ");
+	scanf("\n%f", &kw);
+	
+	if (kw<=250){
+		bill=first*.10+first;
+		printf("\nElectric bill: Php %.2f", bill);	
+	}	
+	else if (kw>250){
+		finalbill = first+ (kw - 250.0) * 8.5;
+		bill=finalbill*.10+finalbill;
+		printf("\nElectric bill: Php %.2f", bill);
+	}
+	
+}
