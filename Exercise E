@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main(void){
+    float rate, liters;
+    char d;
+    char e ='A';
+    char f ='B';
+    char g ='C';
+    char h ='D';
+
+    scanf("\n%c", &d);
+    scanf("\n%f", &liters);
+
+
+    if(d == e){
+        rate = liters*3000.00;
+        printf("%.2f", rate);
+    }
+    else if(d == f){
+        rate = liters*1800.75;
+        printf("%.2f", rate);
+    }
+    else if(d == g){
+        rate = liters*2880.25;
+        printf("%.2f", rate);
+    }
+    else if(d == h){
+        rate = liters*1500.00;
+        printf("%.2f", rate); 
+    }
+    
+}
+
+
