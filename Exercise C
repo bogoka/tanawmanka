@@ -1,0 +1,44 @@
+Question 1
+#include<stdio.h>
+
+int main(void){
+    int a;
+    
+    scanf("%d", &a);
+
+
+    if (a==1)
+    printf("Freshman");
+    else if (a==2)
+    printf("Sophomore");
+    else if (a==3)
+    printf("Junior");
+    else if (a==4)
+    printf("Senior");
+    else
+    printf("Error");
+    
+}
+
+Question 2
+#include<stdio.h>
+
+int main(void){
+    float a;
+    float b=80;
+    float bb=119;
+    float c=100;
+    float d=0;
+    float x=500;
+    float dd=800;
+    
+    scanf("%f", &a);
+
+
+    if (a>=b && a<=bb)
+    printf("%.2f", x);
+    else if (a>=c)
+    printf("%.2f", dd);
+    else
+    printf("%.2f", d);  
+}
