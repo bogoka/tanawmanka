@@ -1,0 +1,47 @@
+/* A factorial of N is defined as
+
+1                         if N is 0 or 1, and
+
+1*2*…*N             if N is a non-negative integer.
+
+Write a program that would accept a value for N and would compute and display its factorial.*/
+
+#include<stdio.h>
+
+int main(void) {
+    int a, b;
+    int c = 1;
+    
+    scanf("%d", &a);
+    
+    
+    for (b = 1; b <= a; ++b) {
+            c *= b;
+        }
+        printf("%d", c);
+
+}
+
+
+/*Write a program that accepts values for base and exponent and computes and prints the power value. The algorithm to solve for power is to continuously multiply the value of the base to how much the value of exponent is.*/
+
+#include<stdio.h> 
+
+int main(void)
+{       
+    int base, exponent, result = 1;
+
+    scanf("%d", &base);
+
+    scanf("%d", &exponent);
+
+    int i;
+
+    for(i = 1; i <= exponent; ++i)
+    {
+        result *= base;
+        
+    }
+	printf("%d", result);
+    
+}
