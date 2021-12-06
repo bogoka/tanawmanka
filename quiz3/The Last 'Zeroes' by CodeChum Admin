@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main(void){
+
+    int n, i;
+    int test;
+
+    printf("Enter n: ");
+    scanf("%d", &n);
+
+    while(n%10==0){
+        n/=10;
+        test++;
+    }
+    printf("Last zeroes count = %d", test);
+}
