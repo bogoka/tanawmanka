@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main(void){
+
+    int n, i;
+    int test, test2;
+
+    printf("Enter the digit (0 - 9): ");
+    scanf("%d", &n);
+
+    printf("Enter the integer: ");
+    scanf("%d", &i);
+    
+    while(i!=0){
+		test = n%10;
+		i=n/10;
+		if(test==n){
+			test2++;
+			break;
+		}
+	}
+	if(test){
+		printf("Yes", test2);
+	}
+	else{
+		printf("No", test2);
+	}
+
+}
