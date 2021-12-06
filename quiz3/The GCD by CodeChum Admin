@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main(void){
+
+    int n, i;
+    int gcd, test;
+
+    printf("Enter the first integer: ");
+    scanf("%d", &n);
+
+    printf("Enter the second integer: ");
+    scanf("%d", &i);
+
+    for(test=1; test<=n && test<=i; test++){
+        if (n%test==0 && i%test==0){
+            gcd=test;
+        }
+    }
+    printf("GCD of %d and %d is %d", n, i, gcd);
+}
