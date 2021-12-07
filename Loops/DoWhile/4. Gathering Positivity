@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main(void){
+
+    int n;
+    int test;
+
+    do{
+        printf("Enter n: ");
+        scanf("%d", &n);
+
+        if (n>0){
+            test+=n;
+        }
+    }while(n!=0);
+
+    printf("Total of all positives = %d", test);
+}
