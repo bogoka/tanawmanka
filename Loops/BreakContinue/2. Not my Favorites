@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main(void){
+
+    int n, test;
+
+    for(n=1;n<=1000;n++){
+        test=n*n*n;
+        if(n%3==0){
+            continue;
+    	}
+        if (n%5==0){
+        	continue;
+		}
+        printf("%d\n",test);
+    }
+}
