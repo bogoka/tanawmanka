@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main(void){
+	
+	int n, i;
+	int counter;
+	
+	
+	printf("Enter the first integer (0 - 9): ");
+    scanf("%d", &n);
+    
+    printf("Enter the second integer: ");
+    scanf("\n%d", &i);
+	
+	
+	while (i){
+	if (i % 10 == n)
+		counter+=1;
+		i=i/10;
+	}
+	printf("Occurrences = %d", counter);
+}
