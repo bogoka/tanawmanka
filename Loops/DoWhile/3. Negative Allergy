@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main(void){
+
+    float n;
+    float test;
+    
+    do{
+        printf("Enter a number: ");
+        scanf("%f", &n);
+        
+        test+=n;
+        
+		
+        
+    }while(n>0 && test<100);
+    
+    printf("Sum = %.2f", test);
+
+}
