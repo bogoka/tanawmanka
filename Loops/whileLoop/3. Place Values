@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main(void){
+	int n, right;
+	
+	
+	printf("Enter n: ");
+	scanf("%d", &n);
+	
+	while(n!=0){
+		right = n%10;
+		n=n/10;
+		printf("%d\n", right);
+	}
+}
