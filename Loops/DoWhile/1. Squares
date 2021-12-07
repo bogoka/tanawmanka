@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main(void){
+
+    int n;
+
+    do{
+        printf("Enter n: ");
+        scanf("%d", &n);
+
+        n=n*n;
+		printf("Square = %d\n\n", n);     
+    }while(n!=0);
+
+}
