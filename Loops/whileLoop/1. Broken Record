@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main(void){
+    int n;
+    int i=1;
+    
+    
+    printf("Enter n: ");
+    scanf("%d", &n);
+
+    while(i<=n)
+    {
+        printf("CodeChum is awesome\n");
+        i++;
+    }
+}
