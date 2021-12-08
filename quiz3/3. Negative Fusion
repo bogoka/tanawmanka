@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main(void){
+
+    float n;
+    float test;
+
+    do{
+        printf("Enter a number: ");
+        scanf("%f", &n);
+
+        if(n<0){
+            test+=n;
+        }
+        else if (n==0){
+            break;
+        }
+        }while(n);
+
+        printf("Sum of all negatives = %.3f", test);
+    
+}
