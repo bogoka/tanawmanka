@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main(void){
+
+    int n;
+    int test;
+
+    do{
+        printf("Enter n: ");
+        scanf("%d", &n);
+
+        if(n<0){
+            test+=n;
+        }
+        else if (n==0){
+            break;
+        }
+        }while(n);
+
+        printf("Sum of negatives = %d", test);
+    
+}
